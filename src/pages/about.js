@@ -2,11 +2,14 @@
  * Created by supimon on 20/07/19.
  */
 import React from "react"
+import Layout from "../components/layout"
 
-export default () => (
-  <div>
+const AboutPage = () => (
+  <Layout>
     <h1>About Page</h1>
     <h2>Supi</h2>
     <p>Learner. Player.</p>
-  </div>
+  </Layout>
 )
+
+export default AboutPage
