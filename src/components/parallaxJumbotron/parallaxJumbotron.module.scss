@@ -1,0 +1,17 @@
+.transparent{
+  background-color: rgba(233, 236, 239, 0);
+  color: white;
+}
+.jumboBg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-color: red;
+  width: 100%;
+  position: absolute;
+  top: -100px;
+  left: 0px;
+  z-index: -1;
+
+}
